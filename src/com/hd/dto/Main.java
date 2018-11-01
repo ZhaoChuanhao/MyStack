@@ -21,6 +21,15 @@ public class Main {
         System.out.println(stack.peek());
         stack.pop();
         System.out.println(stack);
+
+        MyStack<Integer> linkedListStack = new MyLinkedListStack<>();
+        linkedListStack.push(1);
+        linkedListStack.push(2);
+        linkedListStack.push(3);
+        System.out.println(linkedListStack);
+        linkedListStack.pop();
+        System.out.println(linkedListStack);
+
     }
 
 }
